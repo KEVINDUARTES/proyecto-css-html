@@ -1,6 +1,9 @@
 *{
     box-sizing: border-box;
 }
+.container{
+    background-color: rgb(6, 6, 75);
+}
 
 html{
     scroll-behavior: smooth;
@@ -23,25 +26,26 @@ button{
     font-weight: bold;
     padding: 10px 30px;
     border-radius: 5px;
-    border: 2px solid rgba(0,0,0,0.3);
-    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 2px 2px 10px rgba(255, 254, 254, 0.5);
     color: white;
-    background-color: blueviolet;
+    background-color: rgb(10, 0, 143);
 }
 
 button:hover{
-    background-color: rgb(101, 33, 165);
+    background-color: rgb(160, 215, 247);
 }
 
 .container{
     max-width: 1400px;
     margin: auto;
+    color: aliceblue;
 }
 
 .color-acento{ color:blueviolet; }
 
 header{
-    background-color: rgb(245,245,245);
+    background-color: rgb(0, 0, 0);
     
 }
 
@@ -49,7 +53,7 @@ header .logo{
     margin: 0;
     padding: 25px 30px;
     font-weight: bold;
-    color: blueviolet;
+    color: rgb(142, 199, 245);
     font-size: 1.6em;
 }
 
@@ -70,11 +74,11 @@ header a{
     padding: 5px 12px;
     text-decoration: none;
     font-weight: bold;
-    color: black;
+    color: rgb(248, 248, 248);
 }
 
 header a:hover{
-    color: blueviolet;
+    color: rgb(130, 207, 238);
 }
 
 #hero{
@@ -86,8 +90,8 @@ header a:hover{
     height: 90vh;
     background-image: linear-gradient(
         0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
+        rgb(255, 255, 255),
+        rgb(255, 255, 255)
     )
     ,url("media/hero.jpg");
     background-repeat: no-repeat;
@@ -138,8 +142,8 @@ header a:hover{
 .carta:first-child{
     background-image: linear-gradient(
         0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
+        rgba(255, 255, 255, 0.966),
+        rgb(255, 255, 255)
     )
     ,url("media/front-end.jpg");
 
@@ -148,7 +152,7 @@ header a:hover{
 .carta:nth-child(2){
     background-image: linear-gradient(
         0deg,
-        rgba(0,0,0,0.5),
+        rgba(236, 227, 227, 0.918),
         rgba(0,0,0,0.5)
     )
     ,url("media/full-stack.jpg");
@@ -157,8 +161,8 @@ header a:hover{
 .carta:nth-child(3){
     background-image: linear-gradient(
         0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
+        rgba(243, 243, 243, 0.5),
+        rgba(255, 255, 255, 0.938)
     )
     ,url("media/python.jpg");
 
@@ -180,7 +184,7 @@ header a:hover{
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: rgb(30,30,30);
+    background-color: rgb(255, 255, 255);
     color: white;
     height: 80vh;
 }
@@ -194,7 +198,7 @@ header a:hover{
 }
 
 footer{
-    background-color: rgb(230,230,230);
+    background-color: rgb(8, 5, 53);
 }
 
 footer p{
@@ -298,7 +302,7 @@ footer .container{
     .carta:nth-child(2){
         background-image: linear-gradient(
             0deg,
-            rgba(0,0,0,0.5),
+            rgba(240, 222, 222, 0.5),
             rgba(0,0,0,0.5)
         )
         ,url("media/full-stack-cropped.jpg");
